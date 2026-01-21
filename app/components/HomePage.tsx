@@ -13,7 +13,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
   const services = [
     { icon: Stethoscope, label: 'Dokter', color: 'bg-blue-100 text-blue-600', page: 'doctor' as Page },
     { icon: Users, label: 'Perawat', color: 'bg-purple-100 text-purple-600', page: 'nurse' as Page },
-    { icon: Pill, label: 'Apotik', color: 'bg-emerald-100 text-emerald-600', page: 'pharmacy' as Page },
+    { icon: Pill, label: 'Apotek', color: 'bg-emerald-100 text-emerald-600', page: 'pharmacy' as Page },
     { icon: Brain, label: 'Psikolog', color: 'bg-pink-100 text-pink-600', page: 'psychologist' as Page },
     { icon: Heart, label: 'Spiritual', color: 'bg-orange-100 text-orange-600', page: 'spiritual' as Page },
     { icon: Droplet, label: 'Bank Darah', color: 'bg-red-100 text-red-600', page: 'blood-bank' as Page },
